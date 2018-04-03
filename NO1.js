@@ -5,11 +5,6 @@ var twoSum = function(nums, target) {
       let s = target - nums[i];
       let arr = nums.slice(i+1);
       let flag = arr.indexOf(s);
-      if(flag > -1) {
-          console.log([i, flag+i+1]);
-          return [i, flag+i+1];
-      }
+      if(flag > -1) return [i, flag+i+1];
   }
 };
-
-twoSum([3,3], 6);
