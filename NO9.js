@@ -9,7 +9,6 @@ var isPalindrome = function(x) {
   if (x < 10) return true;
   return x == reverse(x);
   function reverse(kx) {
-    let flag = 1;
     let r = 0;
     while (kx > 0) {
       r = r * 10 + kx % 10;
