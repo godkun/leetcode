@@ -1,3 +1,4 @@
+// 字符串转换成整数
 var myAtoi = function(str) {
   str = str.trim();
   // 匹配不是+ - 和数字的第一个索引
