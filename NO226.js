@@ -7,7 +7,7 @@
  */
 /**
  * @param {TreeNode} root
- * @return {TreeNode}
+ * @return {TreeNode} 
  */
 var invertTree = function(root) {
   if(root == null) return null;
