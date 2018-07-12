@@ -1,2 +1,3 @@
+**今日可爱多**
 # leetcode
-用 JavaScript 解决的问题
+这是我在leetcode上刷的一些算法题，具体解题思路在对应的文件中。
